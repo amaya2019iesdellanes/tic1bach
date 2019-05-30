@@ -6,6 +6,6 @@
   $p= "para ir a la graduación";
   echo $k."\n".$p."\n";
   for($a=2;$a<70;$a=$a+2){
-  if($a/3!=abs($a/3)){echo sa."gg";};
+if($a/3!=floor($a/3)){echo $a;};
   }
 ?>
