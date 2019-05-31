@@ -1,0 +1,9 @@
+<?php
+for($i=0;$i<90;$i=$i+1)
+{
+echo" grados:";
+echo $i;
+echo" el sen es:";
+echo sin ($i*pi()/180);
+}
+?>
